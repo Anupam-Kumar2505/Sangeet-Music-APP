@@ -4,15 +4,14 @@ import { MdOutlineAccountCircle } from "react-icons/md";
 const Header = () => {
   return (
     <>
-      <div className="drawer">
+      <div className="drawer mb-[2%] z-10">
         <div className="drawer-content flex ">
           {/* Navbar */}
           <div className="navbar w-full">
-            <Sidebar />
+            <Sidebar className="" />
             <SearchBar />
-            <MdOutlineAccountCircle className=" mr-2 h-8 w-10 " />
+            <MdOutlineAccountCircle className="h-8 w-10 " />
           </div>
-          {/* Page content here */}
         </div>
       </div>
     </>

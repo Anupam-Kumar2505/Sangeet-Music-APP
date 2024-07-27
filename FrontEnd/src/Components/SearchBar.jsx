@@ -7,7 +7,10 @@ const SearchBar = () => {
         color="black"
         className="px-2 w-9 bg-[#F2AA4C] h-full rounded-l-full"
       />
-      <input type="text" className="w-1/3 h-full rounded-r-full bg-[#F2AA4C]" />
+      <input
+        type="text"
+        className="w-1/3 h-full rounded-r-full bg-[#F2AA4C] focus:outline-none pb-1 text-black placeholder:text-slate-500"
+      />
     </div>
   );
 };

@@ -36,7 +36,7 @@ const Sidebar = () => {
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
-          className="drawer-overlay"
+          className="drawer-overlay absolute inset-0 "
         ></label>
         <div className="bg-base-200 flex flex-col md:flex-none h-screen w-80 p-4">
           <a className="flex items-center text-white no-underline">
