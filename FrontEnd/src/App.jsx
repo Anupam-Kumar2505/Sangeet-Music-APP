@@ -13,7 +13,6 @@ export default function App() {
       <div className="flex flex-col h-lvh backdrop-blur-sm">
         <Header />
         <HeroSectionPlayer />
-        <MusicPlayer />
       </div>
     </SlideDetailsProvider>
   );

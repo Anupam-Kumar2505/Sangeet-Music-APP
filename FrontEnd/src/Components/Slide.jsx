@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/Slide.css";
+import "../styles/temp.css";
 
 const Slide = ({ slide, index, imageIndex }) => {
   const { img } = slide;
 
   return (
-    <div className="slide Container">
+    <div className="item">
       <img src={img} />
     </div>
   );
