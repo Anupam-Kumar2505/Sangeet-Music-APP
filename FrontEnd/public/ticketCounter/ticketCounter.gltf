@@ -3,12 +3,6 @@
 		"generator":"Khronos glTF Blender I/O v4.1.62",
 		"version":"2.0"
 	},
-	"extensionsUsed":[
-		"EXT_texture_webp"
-	],
-	"extensionsRequired":[
-		"EXT_texture_webp"
-	],
 	"scene":0,
 	"scenes":[
 		{
@@ -43,35 +37,10 @@
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"Material.002",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.800000011920929,
-					0.800000011920929,
-					0.800000011920929,
-					1
-				],
-				"metallicFactor":0,
-				"roughnessFactor":0.5
-			}
-		},
-		{
-			"doubleSided":true,
-			"name":"Material.003",
+			"name":"Material.006",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
-				},
-				"metallicFactor":0,
-				"roughnessFactor":0.5
-			}
-		},
-		{
-			"doubleSided":true,
-			"name":"Material",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
 				},
 				"metallicFactor":0,
 				"roughnessFactor":0.5
@@ -80,7 +49,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Cube.002",
+			"name":"Cube.003",
 			"primitives":[
 				{
 					"attributes":{
@@ -90,48 +59,17 @@
 					},
 					"indices":3,
 					"material":0
-				},
-				{
-					"attributes":{
-						"POSITION":4,
-						"NORMAL":5,
-						"TEXCOORD_0":6
-					},
-					"indices":7,
-					"material":1
-				},
-				{
-					"attributes":{
-						"POSITION":8,
-						"NORMAL":9,
-						"TEXCOORD_0":10
-					},
-					"indices":11,
-					"material":2
 				}
 			]
 		}
 	],
 	"textures":[
 		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":0
-				}
-			},
-			"sampler":0
-		},
-		{
 			"sampler":0,
-			"source":1
+			"source":0
 		}
 	],
 	"images":[
-		{
-			"mimeType":"image/webp",
-			"name":"pr-ys-sk-25-signever-original-imafg2gwq74cfhhj",
-			"uri":"pr-ys-sk-25-signever-original-imafg2gwq74cfhhj.webp"
-		},
 		{
 			"mimeType":"image/png",
 			"name":"ImphenziaPalette02-Albedo",
@@ -141,74 +79,6 @@
 	"accessors":[
 		{
 			"bufferView":0,
-			"componentType":5126,
-			"count":64,
-			"max":[
-				0.4106900095939636,
-				2.6056699752807617,
-				1
-			],
-			"min":[
-				-0.4106900095939636,
-				-2.6056699752807617,
-				-1
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":1,
-			"componentType":5126,
-			"count":64,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":2,
-			"componentType":5126,
-			"count":64,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":3,
-			"componentType":5123,
-			"count":120,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":4,
-			"componentType":5126,
-			"count":8,
-			"max":[
-				0.1073400005698204,
-				2.4564900398254395,
-				0.9268839955329895
-			],
-			"min":[
-				-0.10611128807067871,
-				-2.4564900398254395,
-				-0.9268839955329895
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":5,
-			"componentType":5126,
-			"count":8,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":6,
-			"componentType":5126,
-			"count":8,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":7,
-			"componentType":5123,
-			"count":12,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":8,
 			"componentType":5126,
 			"count":86,
 			"max":[
@@ -224,19 +94,19 @@
 			"type":"VEC3"
 		},
 		{
-			"bufferView":9,
+			"bufferView":1,
 			"componentType":5126,
 			"count":86,
 			"type":"VEC3"
 		},
 		{
-			"bufferView":10,
+			"bufferView":2,
 			"componentType":5126,
 			"count":86,
 			"type":"VEC2"
 		},
 		{
-			"bufferView":11,
+			"bufferView":3,
 			"componentType":5123,
 			"count":180,
 			"type":"SCALAR"
@@ -245,74 +115,26 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":768,
+			"byteLength":1032,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":768,
-			"byteOffset":768,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":512,
-			"byteOffset":1536,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":240,
-			"byteOffset":2048,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":96,
-			"byteOffset":2288,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":96,
-			"byteOffset":2384,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":64,
-			"byteOffset":2480,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":24,
-			"byteOffset":2544,
-			"target":34963
-		},
-		{
-			"buffer":0,
 			"byteLength":1032,
-			"byteOffset":2568,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":1032,
-			"byteOffset":3600,
+			"byteOffset":1032,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":688,
-			"byteOffset":4632,
+			"byteOffset":2064,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":360,
-			"byteOffset":5320,
+			"byteOffset":2752,
 			"target":34963
 		}
 	],
@@ -324,7 +146,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":5680,
+			"byteLength":3112,
 			"uri":"ticketCounter.bin"
 		}
 	]
